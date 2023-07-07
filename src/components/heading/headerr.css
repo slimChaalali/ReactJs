@@ -1,0 +1,13 @@
+.header{
+    padding-top: 15%;
+    padding-left: 10%;
+    background-image: url(../../../public/react.png);
+    background-color: #F5F5F5;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 670px;
+}
+.header h1{
+    padding-bottom: 2%;
+}

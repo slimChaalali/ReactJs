@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Navibar from './components/navBar/Navibar';
+import Headerr from './components/heading/Headerr';
+import Cardd from './components/card/Cardd';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Navibar/>
+   <Headerr/>
+   <Cardd/>
+   </>
   );
 }
 
